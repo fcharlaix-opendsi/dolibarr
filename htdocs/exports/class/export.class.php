@@ -21,7 +21,7 @@
 /**
  *	\file       htdocs/exports/class/export.class.php
  *	\ingroup    export
- *	\brief      File of class to manage exports
+ *	\brief      File of class to manage export s
  */
 
 
