@@ -14,5 +14,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           url: ${{ github.event.pull_request.html_url }}
         run: |
-          gh pr edit "$url" --add-assignee lvessiller-opendsi,rycks --add-reviewer lvessiller-opendsi,rycks
+          gh pr edit "$url" --add-assignee lvessiller-opendsi --add-reviewer lvessiller-opendsi
           gh pr merge "$url" --auto
