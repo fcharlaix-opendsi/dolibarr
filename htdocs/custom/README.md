@@ -9,13 +9,7 @@ of the module.
 
 For example on Linux OS: Get the module from the command
 
-`mkdir ~/git; cd ~/git`
-
-`git clone https://git.framasoft.org/p/newmodule/newmodule.git`
-
-Then create the symbolic link
-
-`ln -fs ~/git/newmodule/htdocs /path_to_dolibarr/htdocs/custom/newmodule`
+`mkdir ~/git; cd ~/git`newmodule`
 
 WARNING !!!
 Check also that the /custom directory is active by adding into dolibarr `conf/conf.php` file the following
